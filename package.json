@@ -1,0 +1,25 @@
+{
+  "name": "cubejs-nuxt-dashboard",
+  "version": "1.0.0",
+  "description": "A cubejs and nuxt dashboard",
+  "author": "Daniel Phiri",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@cubejs-client/core": "^0.19.31",
+    "@cubejs-client/vue": "^0.19.31",
+    "@nuxtjs/axios": "^5.11.0",
+    "highcharts": "^8.1.2",
+    "nuxt": "^2.0.0",
+    "tailwind": "^4.0.0",
+    "vue2-highcharts": "^1.2.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
